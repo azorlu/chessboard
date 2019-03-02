@@ -1,3 +1,53 @@
 /* You can add global styles to this file, and also import other style files */
 
-@import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
+@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
+.board-container {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  background-color: firebrick;
+
+}
+
+.board {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+
+  background-color: peru;
+}
+
+.square {
+  float: left;
+  width: 12.5%;
+  height: 12.5%;
+  background-color: bisque;
+  position: relative;
+  display: block;
+}
+
+fa-icon {
+  font-size: 2em;
+}
+
+.light-square {
+  background-color: burlywood;
+}
+
+.dark-square {
+  background-color: saddlebrown;
+}
+
+.light-piece {
+  color: ghostwhite;
+}
+
+.dark-piece {
+  color: black;
+}
