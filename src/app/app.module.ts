@@ -8,6 +8,7 @@ import { HeaderComponent } from '../components/header/header.component';
 import { MenuComponent } from '../components/menu/menu.component';
 import { BoardComponent } from '../components/board/board.component';
 import { SquareComponent } from '../components/square/square.component';
+import { PieceComponent } from '../components/piece/piece.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { SquareComponent } from '../components/square/square.component';
     HeaderComponent,
     MenuComponent,
     BoardComponent,
-    SquareComponent
+    SquareComponent,
+    PieceComponent
   ],
   imports: [
     BrowserModule,
